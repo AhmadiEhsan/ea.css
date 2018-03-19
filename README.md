@@ -1,3 +1,3 @@
 # ea.css
 
-Perfect complement for Bootstrap library
+Awesome Supplement for Bootstrap
