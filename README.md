@@ -1,3 +1,3 @@
 # ea.css
 
-Awesome Supplement for Bootstrap
+Awesome supplement for Bootstrap
