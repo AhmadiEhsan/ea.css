@@ -1,0 +1,35 @@
+{
+  "name": "ea.css",
+  "version": "1.0.0",
+  "description": "Awesome supplement for Bootstrap",
+  "main": "ea.css",
+  "dependencies": {
+    "autoprefixer": "^8.1.0",
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-favicons": "^2.2.7",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "merge-stream": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmadiEhsan/ea.css.git"
+  },
+  "author": "Ehsan Ahmadi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AhmadiEhsan/ea.css/issues"
+  },
+  "homepage": "https://github.com/AhmadiEhsan/ea.css#readme"
+}
