@@ -2290,14 +2290,17 @@
 .ea-align-text-top {
   vertical-align: text-top !important; }
 
-.ea-font-normal {
+.ea-weight-normal {
   font-weight: normal !important; }
 
-.ea-font-bold {
+.ea-weight-bold {
   font-weight: bold !important; }
 
-.ea-font-italic {
-  font-weight: italic !important; }
+.ea-style-normal {
+  font-style: normal !important; }
+
+.ea-style-italic {
+  font-style: italic !important; }
 
 .ea-decoration-none {
   text-decoration: none !important; }
@@ -2558,12 +2561,14 @@
   text-align: justify !important; }
 
 @media (min-width: 576px) {
-  .ea-sm-font-normal {
+  .ea-sm-weight-normal {
     font-weight: normal !important; }
-  .ea-sm-font-bold {
+  .ea-sm-weight-bold {
     font-weight: bold !important; }
-  .ea-sm-font-italic {
-    font-weight: italic !important; }
+  .ea-sm-style-normal {
+    font-style: normal !important; }
+  .ea-sm-style-italic {
+    font-style: italic !important; }
   .ea-sm-decoration-none {
     text-decoration: none !important; }
   .ea-sm-direction-rtl {
@@ -2741,12 +2746,14 @@
     text-align: justify !important; } }
 
 @media (min-width: 768px) {
-  .ea-md-font-normal {
+  .ea-md-weight-normal {
     font-weight: normal !important; }
-  .ea-md-font-bold {
+  .ea-md-weight-bold {
     font-weight: bold !important; }
-  .ea-md-font-italic {
-    font-weight: italic !important; }
+  .ea-md-style-normal {
+    font-style: normal !important; }
+  .ea-md-style-italic {
+    font-style: italic !important; }
   .ea-md-decoration-none {
     text-decoration: none !important; }
   .ea-md-direction-rtl {
@@ -2924,12 +2931,14 @@
     text-align: justify !important; } }
 
 @media (min-width: 992px) {
-  .ea-lg-font-normal {
+  .ea-lg-weight-normal {
     font-weight: normal !important; }
-  .ea-lg-font-bold {
+  .ea-lg-weight-bold {
     font-weight: bold !important; }
-  .ea-lg-font-italic {
-    font-weight: italic !important; }
+  .ea-lg-style-normal {
+    font-style: normal !important; }
+  .ea-lg-style-italic {
+    font-style: italic !important; }
   .ea-lg-decoration-none {
     text-decoration: none !important; }
   .ea-lg-direction-rtl {
@@ -3107,12 +3116,14 @@
     text-align: justify !important; } }
 
 @media (min-width: 1200px) {
-  .ea-xl-font-normal {
+  .ea-xl-weight-normal {
     font-weight: normal !important; }
-  .ea-xl-font-bold {
+  .ea-xl-weight-bold {
     font-weight: bold !important; }
-  .ea-xl-font-italic {
-    font-weight: italic !important; }
+  .ea-xl-style-normal {
+    font-style: normal !important; }
+  .ea-xl-style-italic {
+    font-style: italic !important; }
   .ea-xl-decoration-none {
     text-decoration: none !important; }
   .ea-xl-direction-rtl {

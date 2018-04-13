@@ -5,8 +5,17 @@
     $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
 
     // font-weight
-    @each $prop, $abbrev in (font-weight: font) {
+    @each $prop, $abbrev in (font-weight: weight) {
       @each $kind in $font_weights {
+        .#{$prefix}#{$infix}#{$abbrev}-#{$kind} {
+          #{$prop}: #{$kind} !important;
+        }
+      }
+    }
+
+    // font-style
+    @each $prop, $abbrev in (font-style: style) {
+      @each $kind in $font_style {
         .#{$prefix}#{$infix}#{$abbrev}-#{$kind} {
           #{$prop}: #{$kind} !important;
         }
