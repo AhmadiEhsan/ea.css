@@ -3786,6 +3786,75 @@
   .ea-xl-overflow-auto, .ea-xl-of-auto {
     overflow: auto !important; } }
 
+.ea-cursor-unset {
+  cursor: unset !important; }
+
+.ea-cursor-default {
+  cursor: default !important; }
+
+.ea-cursor-pointer {
+  cursor: pointer !important; }
+
+.ea-cursor-text {
+  cursor: text !important; }
+
+.ea-cursor-vertical-text {
+  cursor: vertical-text !important; }
+
+.ea-cursor-auto {
+  cursor: auto !important; }
+
+.ea-cursor-none {
+  cursor: none !important; }
+
+.ea-cursor-cell {
+  cursor: cell !important; }
+
+.ea-cursor-col-resize {
+  cursor: col-resize !important; }
+
+.ea-cursor-row-resize {
+  cursor: row-resize !important; }
+
+.ea-cursor-copy {
+  cursor: copy !important; }
+
+.ea-cursor-crosshair {
+  cursor: crosshair !important; }
+
+.ea-cursor-n-resize {
+  cursor: n-resize !important; }
+
+.ea-cursor-e-resize {
+  cursor: e-resize !important; }
+
+.ea-cursor-w-resize {
+  cursor: w-resize !important; }
+
+.ea-cursor-s-resize {
+  cursor: s-resize !important; }
+
+.ea-cursor-help {
+  cursor: help !important; }
+
+.ea-cursor-move {
+  cursor: move !important; }
+
+.ea-cursor-not-allowed {
+  cursor: not-allowed !important; }
+
+.ea-cursor-progress {
+  cursor: progress !important; }
+
+.ea-cursor-wait {
+  cursor: wait !important; }
+
+.ea-cursor-zoom-in {
+  cursor: zoom-in !important; }
+
+.ea-cursor-zoom-out {
+  cursor: zoom-out !important; }
+
 .ea-clearfix::after {
   display: block;
   clear: both;
