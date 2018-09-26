@@ -1,6 +1,6 @@
 {
   "name": "ea.css",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Awesome supplement for Bootstrap",
   "main": "ea.css",
   "dependencies": {
@@ -20,6 +20,7 @@
     "hoek": "^5.0.4",
     "lodash": "^4.17.11",
     "merge-stream": "^1.0.1",
+    "mime": "^2.3.1",
     "node-mime": "^1.0.0"
   },
   "devDependencies": {},
