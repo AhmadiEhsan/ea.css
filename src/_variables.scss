@@ -1,4 +1,4 @@
-// Using Bootstraps Breakpoint (Bootstrap v4.0.0)
+// ************************* Using Bootstraps Breakpoint (Bootstrap v4.0.0)
 
 // Grid breakpoints
 //
@@ -16,7 +16,7 @@ $grid-breakpoints: (
 @include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
 @include _assert-starts-at-zero($grid-breakpoints);
 
-// ********************** End using bootstrap **********************
+// ************************* End using bootstrap
 
 // Prefix
 //
@@ -52,6 +52,8 @@ $borders: ();
 
   $borders_from: $borders_from + $borders_step;
 }
+
+$border_styles: (none, dashed, dotted, double, groove, hidden, inset, outset, ridge, solid);
 
 //
 // display

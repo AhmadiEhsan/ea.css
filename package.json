@@ -1,6 +1,6 @@
 {
   "name": "ea.css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Awesome supplement for Bootstrap",
   "main": "ea.css",
   "dependencies": {
