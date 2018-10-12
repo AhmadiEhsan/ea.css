@@ -1,4 +1,4 @@
-// ************************* Using Bootstraps Breakpoint (Bootstrap v4.0.0)
+// -------------------------> Using Bootstraps Breakpoint (Bootstrap v4.0.0)
 
 // Grid breakpoints
 //
@@ -16,7 +16,7 @@ $grid-breakpoints: (
 @include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
 @include _assert-starts-at-zero($grid-breakpoints);
 
-// ************************* End using bootstrap
+// -------------------------> End using bootstrap
 
 // Prefix
 //
@@ -53,12 +53,22 @@ $borders: ();
   $borders_from: $borders_from + $borders_step;
 }
 
-$border_styles: (none, dashed, dotted, double, groove, hidden, inset, outset, ridge, solid);
+$border_styles: (none, unset, dashed, dotted, solid);
 
 //
 // display
 //
-$displays: (none, inline, inline-block, block, table, table-row, table-cell, flex, inline-flex);
+$displays: (
+        none,
+        inline,
+        inline-block,
+        block,
+        table,
+        table-row,
+        table-cell,
+        flex,
+        inline-flex
+);
 
 //
 // align
@@ -78,7 +88,7 @@ $font_style: (normal, italic);
 //
 // text-decoration
 //
-$text_decorations: (none);
+$text_decorations: (none, underline, overline, line-through);
 
 //
 // direction
@@ -167,4 +177,18 @@ $overflows: (visible, hidden, scroll, auto);
 //
 // cursor
 //
-$cursors: (unset, default, pointer, text, vertical-text, auto, none, cell, col-resize, row-resize, copy, crosshair, n-resize, e-resize, w-resize, s-resize, help, move, not-allowed, progress, wait, zoom-in, zoom-out);
+$cursors: (
+        unset,
+        default,
+        pointer,
+        text,
+        auto,
+        none,
+        cell,
+        crosshair,
+        help,
+        move,
+        not-allowed,
+        zoom-in,
+        zoom-out
+);
